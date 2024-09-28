@@ -102,7 +102,9 @@ h1 {
     font-style: italic;
 }
 
-
+.copy-notice {
+    opacity: 50%;
+}
 
 .btn-copy {
     background-color: rgba(255, 255, 255, 0);
