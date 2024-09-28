@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Password Generator</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Randomized Password Generator</h1>
+        <div class="second-container password-container">
+            <span class="generated-pass">Generated password</span>
+            <div class="copy-container">
+                <span class="copy-notice"></span>
+                <button class="btn-copy">
+                <img class="copy-icon" src="./assets/icons/copy-icon.svg" alt="">
+            </button>
+            </div>
+        </div>
+        <div class="second-container controls-container">
+            <div class="options-container">
+                <label for="char-length">Character Length</label>
+                <span class="length-count">13</span>
+            </div>
+            <input class="char-length-slider" type="range" name="char-length" min="6" max="20" value="13">
+
+            <div class="options-container">
+                <label for="uppercase-char-toggle">Include Uppercase Characters </label>
+                <input class="chk-uppercase-char" type="checkbox" name="special-char-toggle" checked>
+            </div>
+
+            <div class="options-container">
+                <label for="special-char-toggle">Include Special Characters </label>
+                <input class="chk-special-char" type="checkbox" name="uppercase-char-toggle" checked>
+            </div>
+            
+            <button class="btn-generate">Generate Password</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
