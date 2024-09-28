@@ -1,4 +1,4 @@
-# Random Password Generator
+# __Random Password Generator__ 🔑
 ## A password generator made in vanilla HTML, CSS and JS
 Features:
 * Slider to customize the password length

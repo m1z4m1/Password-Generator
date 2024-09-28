@@ -98,12 +98,10 @@ function clipboardPassword() {
         setTimeout( function(){
             clipboardNotify.style.cssText = "transition: all 1s; opacity: 0";
             passwordContainer.classList.remove("password-container-effect");
-            console.log("hmmm");
 
             setTimeout( function(){
-
+                clipboardNotify.style.removeProperty("transition, opacity");
                 clipboardNotify.textContent = "";
-                console.log("remove");
                 }, 1000 );
 
         }, 1000 );
