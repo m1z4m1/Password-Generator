@@ -4,4 +4,4 @@ Features:
 * Slider to customize the password length
 * Option to include or exclude uppercase characters
 * Option to include or exclude special characters
-* The generated password will not have two same consecutive character for more secured passowrd
+* The generated password will not have two same consecutive character
